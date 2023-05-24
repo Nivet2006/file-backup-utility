@@ -11,7 +11,7 @@ Source Folder Selection: Users can specify the source folder from which files an
 - Interactive Usage: The utility prompts the user to enter the source and destination folders, ensuring a flexible and interactive user experience.
 
 ### Requirements
-- Python 3.x
+- Python 
 
 ### Usage
 1. Run the file_backup.py script using Python.
