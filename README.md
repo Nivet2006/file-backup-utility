@@ -1,4 +1,4 @@
-## file-backup-utility
+# file-backup-utility
 The File Backup Utility is a Python-based tool that allows users to create secure and automated backups of files and directories. It simplifies the backup process, providing an efficient and user-friendly solution for data redundancy.
 
 ### Features
@@ -32,8 +32,8 @@ Backup location: /path/to/destination/folder/backup_20220524150237
 ```
 Please note that the above example assumes that the file_backup.py script is in the same directory as the execution location.
 
-#### Contributing
+### Contributing
 Contributions to the File Backup Utility project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
 
-#### License
+### License
 This project is licensed under the MIT License.
