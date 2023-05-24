@@ -22,7 +22,7 @@ Confirm the backup operation when prompted.
 5. The backup completion message, along with the backup location, will be displayed.
 
 #### Example
-```
+```python
 $ python file_backup.py
 Enter the source folder: /path/to/source/folder
 Enter the destination folder: /path/to/destination/folder
