@@ -1,5 +1,5 @@
 # file-backup-utility
-The File Backup Utility is a Python-based tool that allows users to create secure and automated backups of files and directories. It simplifies the backup process, providing an efficient and user-friendly solution for data redundancy.
+The File Backup Utility is a Python-based tool that allows users to create secure backups of files and directories. It simplifies the backup process, providing an efficient and user-friendly solution for data redundancy.
 
 ### Features
 - Backup Creation: The utility creates backups of files and directories, preserving the original folder structure.
