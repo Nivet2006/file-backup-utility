@@ -12,6 +12,7 @@ Source Folder Selection: Users can specify the source folder from which files an
 
 ### Requirements
 - Python 
+- ttkbootstrap module (pip install ttkbootstrap)
 
 ### Usage
 1. Run the file_backup.py script using Python.
@@ -31,6 +32,13 @@ Backup created successfully.
 Backup location: /path/to/destination/folder/backup_20220524150237
 ```
 Please note that the above example assumes that the file_backup.py script is in the same directory as the execution location.
+
+### UI:
+run `green-dark_theme.py`
+![green_based](image.png)
+
+purple-based_theme.py
+![purple_based](image-1.png)
 
 ### Contributing
 Contributions to the File Backup Utility project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
