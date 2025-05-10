@@ -4,7 +4,6 @@ import datetime
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-# Function to perform backup
 def backup_files():
     source_folder = source_entry.get()
     destination_folder = dest_entry.get()
@@ -35,7 +34,6 @@ def backup_files():
     except Exception as e:
         messagebox.showerror("Error", str(e))
 
-# Browse functions
 def browse_source():
     folder = filedialog.askdirectory()
     source_entry.delete(0, tk.END)
@@ -64,8 +62,7 @@ dest_entry.pack()
 tk.Button(root, text="Browse", command=browse_destination, bg="#6a0dad", fg="white").pack(pady=5)
 
 # Backup Button
-tk.Button(root, text="Backup Now", command=backup_files, font=("Segoe UI", 12, "bold"),
-          bg="#a020f0", fg="white", padx=20, pady=5).pack(pady=20)
+tk.Button(root, text="Backup Now", command=backup_files, font=("Segoe UI", 12, "bold"),bg="#a020f0", fg="white", padx=20, pady=5).pack(pady=20)
 
 # Run the GUI
 root.mainloop()

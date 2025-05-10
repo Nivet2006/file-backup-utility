@@ -3,26 +3,21 @@ import shutil
 import datetime
 
 def backup_files():
-    # Prompt the user to enter the source folder
+    print("Welcome to the Python Folder Backup utility")
     source_folder = input("Enter the source folder: ")
 
-    # Verify that the source folder exists
     if not os.path.exists(source_folder):
         print("Source folder does not exist.")
         return
 
-    # Prompt the user to enter the destination folder
     destination_folder = input("Enter the destination folder: ")
 
     try:
-        # Create a timestamp for the backup folder name
         timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
         backup_folder = os.path.join(destination_folder, f"backup_{timestamp}")
 
-        # Create the backup folder
         os.makedirs(backup_folder)
 
-        # Walk through the source folder and copy files to the backup folder
         for root, dirs, files in os.walk(source_folder):
             for file in files:
                 source_path = os.path.join(root, file)
@@ -35,10 +30,8 @@ def backup_files():
     except OSError as e:
         print("Error:", e)
 
-# Run the backup_files function
 backup_files()
 
-# Prompt the user for confirmation to continue
 while True:
     user_input = input("Do you want to perform another backup? (yes/no): ")
     if user_input.lower() == "yes":

@@ -46,8 +46,7 @@ def browse_destination():
     dest_entry.delete(0, tk.END)
     dest_entry.insert(0, folder)
 
-# Setup GUI
-root = ttk.Window(themename="darkly")  # Use a purple-compatible dark theme
+root = ttk.Window(themename="darkly")
 root.title("File Backup Utility")
 root.geometry("500x300")
 
