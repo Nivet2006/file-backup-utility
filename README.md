@@ -34,10 +34,10 @@ Backup location: /path/to/destination/folder/backup_20220524150237
 Please note that the above example assumes that the file_backup.py script is in the same directory as the execution location.
 
 ### UI:
-run `green-dark_theme.py`
+run ```green-dark_theme.py```
 ![green_based](image.png)
 
-purple-based_theme.py
+run ```purple-based_theme.py```
 ![purple_based](image-1.png)
 
 ### Contributing
