@@ -22,7 +22,8 @@ class BackupApp:
         self.setup_ui()
 
     def setup_ui(self):
-        self.root.title("Advanced File Backup Utility")
+        self.root.title("Backup Utility")
+        self.root.iconbitmap("cloud.ico")
         self.root.geometry("500x450")
 
         # Theme toggle
